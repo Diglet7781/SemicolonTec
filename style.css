@@ -1,0 +1,85 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color:rgba(22, 146, 218, 0.8);
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+}
+div{
+    height:40px;
+    width: auto;
+    /* background-color:red; */
+    /* border:2px solid grey; */
+}
+nav{
+   
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color:gold;
+
+    
+
+}
+.logo{
+    background-image: url(logo.png);
+}
+.companyName{
+    padding-top:20px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:gold;
+    height: 5rem;
+    width: auto;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.quote{
+    padding-top: 5px;
+    align-items: center;
+    color:goldenrod;
+    font-weight: bolder;
+
+}
+#features{
+    padding-top:20px;
+    text-align: center;
+    color:gold;
+    font-size: 5rem;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    color:gold;
+    padding-top:5rem;
+    font-weight: 900;
+    font-size: 3rem;
+    height:100px;
+}
+.web-development{
+    background-size: 100px;
+    height:200px;
+}
+#web-image{
+    height: 200px;
+}
+.study-abroad{
+    height: 200px;
+}
+#studyAbroad-image{
+    height:200px;
+    width:200px;
+    padding-left: 20px;
+    align-content: center;
+}
+#it-image{
+    height:200px;
+}
